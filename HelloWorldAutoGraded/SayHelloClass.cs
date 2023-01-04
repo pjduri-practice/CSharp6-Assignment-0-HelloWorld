@@ -3,17 +3,18 @@ namespace HelloWorldAutoGraded
 {
 	public class SayHelloClass
 	{
-		public SayHelloClass()
-		{
-
-		}
-
 		//Update the method to pass the auto-graded test
 
 		public static string SayHello()
 		{
-			return "---";
+			return "&&&";
 		}
-	}
+
+        //class constructor - intentionally empty
+        public SayHelloClass()
+        {
+
+        }
+    }
 }
 

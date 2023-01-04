@@ -8,7 +8,7 @@ public class HelloTest
     [TestMethod]
     public void TestIfSayHelloReturnsCorrectValue()
     {
-        Assert.AreEqual("Hello, World!", SayHelloClass.SayHello(), "Incorrect message.");
+        Assert.AreEqual("Hello, World!", SayHelloClass.SayHello(), "Incorrect message displayed.");
     }
 
     [TestMethod]
